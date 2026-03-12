@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Great Leaders of India</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Navigation Bar */
+nav{
+background:#ff9933;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+
+header{
+background:#138808;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+/* Leader Cards */
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:40px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+padding:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.card h2{
+color:#0a3d62;
+}
+
+footer{
+background:#000080;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Leaders</a>
+<a href="#">About</a>
+</nav>
+
+<header>
+<h1>Great Leaders of India</h1>
+<p>Inspirational personalities who shaped the future of India</p>
+</header>
+
+<section class="container">
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Mahatma-Gandhi.jpg">
+<h2>Mahatma Gandhi</h2>
+<p>Leader of India's independence movement who followed non-violence and truth.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Bhimrao_Ambedkar.jpg">
+<h2>Dr B R Ambedkar</h2>
+<p>Architect of the Indian Constitution and social reformer who fought against discrimination.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Bhagat_Singh_1929.jpg">
+<h2>Bhagat Singh</h2>
+<p>Young revolutionary who sacrificed his life for India's freedom.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Subhas_Chandra_Bose_NRB.jpg">
+<h2>Subhas Chandra Bose</h2>
+<p>Leader of the Indian National Army who strongly opposed British rule.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Sardar_patel_%28cropped%29.jpg">
+<h2>Sardar Vallabhbhai Patel</h2>
+<p>Iron Man of India who united more than 500 princely states.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/95/APJ_Abdul_Kalam_2015.jpg">
+<h2>APJ Abdul Kalam</h2>
+<p>Scientist and former President known as the Missile Man of India.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Jawaharlal_Nehru_1947.jpg">
+<h2>Jawaharlal Nehru</h2>
+<p>First Prime Minister of India who played an important role in independence.</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Lal_Bahadur_Shastri.jpg">
+<h2>Lal Bahadur Shastri</h2>
+<p>Second Prime Minister of India known for the slogan "Jai Jawan Jai Kisan".</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Bal_Gangadhar_Tilak.jpg">
+<h2>Bal Gangadhar Tilak</h2>
+<p>Freedom fighter who declared "Swaraj is my birthright".</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Rani_Lakshmibai.jpg">
+<h2>Rani Lakshmibai</h2>
+<p>Queen of Jhansi who bravely fought the British during the 1857 revolt.</p>
+</div>
+
+</section>
+
+<footer>
+<p>Great Leaders of India Website | Educational Project</p>
+</footer>
+
+</body>
+</html>
